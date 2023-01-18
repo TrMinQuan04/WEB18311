@@ -12,5 +12,6 @@ p>img{
     box-shadow: 5px 5px black;
 }
 p>img:hover{
-    box-shadow: yellow;
+    box-shadow: 5px 5px red;
+    background-color: blue;
 }
