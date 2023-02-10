@@ -11,20 +11,22 @@
 </head>
 <body>
     <form action="form">
-        <div>
-            <h2>Đăng ký</h2>
-            <h5>Nhanh chóng và dễ dàng</h5>
+        <div class="tieude">
+            <h1>Đăng ký</h1>
+            <p>Nhanh chóng và dễ dàng</p>
         </div>
         <br>
         <hr>
         <br>
-        <div>
-            <input tabindex="1" placeholder="Họ">
-            <input tabindex="2" placeholder="Tên"><br>
-            <input tabindex="3" placeholder="Số di động hoặc email"><br>
-            <input tabindex="4" placeholder="Mật khẩu mới"><br>
-            <label for="sn">Sinh nhật</label><br>
-            <select name="ngay">
+        <div class="nd1">
+            <input class="ho" tabindex="1" placeholder="Họ">
+            <input class="ten" tabindex="2" placeholder="Tên"><br><br>
+            <input class="sdt" tabindex="3" placeholder="Số di động hoặc email"><br><br>
+            <input class="mk" tabindex="4" placeholder="Mật khẩu mới"><br>
+            <br>
+            <div class="sn">
+                <label for="sn">Sinh nhật:</label><br>
+                <select name="ngay">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -56,8 +58,8 @@
                 <option>29</option>
                 <option>30</option>
                 <option>31</option>
-            </select>
-            <select name="thang">
+                </select>
+                <select name="thang">
                 <option>Tháng 1</option>
                 <option>Tháng 2</option>
                 <option>Tháng 3</option>
@@ -70,8 +72,8 @@
                 <option>Tháng 10</option>
                 <option>Tháng 11</option>
                 <option>Tháng 12</option>
-            </select>
-            <select name="nam">
+                </select>
+                <select name="nam">
                 <option>2000</option>
                 <option>2001</option>
                 <option>2002</option>
@@ -80,14 +82,22 @@
                 <option>2005</option>
                 <option>2006</option>
                 <option>2007</option>
-            </select><br>
-            <label for="gt">Giới tính</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="html">Nam</label>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Nữ</label>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Khác</label><br>
+                </select>
+            </div>
+            <br>
+            <div class="gt">
+                <label for="gt">Giới tính:</label><br>
+                <div class="hh">
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="html">Nam</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Nữ</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Tùy chỉnh</label>
+                </div>
+            </div>
+        </div>   
+        <div class="nd2"> 
             <p>
                 Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook. Tìm hiểu thêm.
             </p><br>
@@ -95,10 +105,11 @@
                 Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách quyền riêng tư và Chính sách cookie của chúng tôi.
                 Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
             </p>
+        </div>
+        <br>
+        <div class="submit">
             <input type="submit" value="Đăng ký"><br>
         </div>
-
-
     </form>
 </body>
 </html>

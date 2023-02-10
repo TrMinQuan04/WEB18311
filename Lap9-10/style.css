@@ -7,8 +7,57 @@ form {
     width: 450px;
     margin: 0 auto;
     padding: 20px;
-    background-color: aqua;
+    background-color: rgb(225, 229, 229);
     border: 2px solid black;
     box-shadow: 0 0 10px rgb(255, 247, 247);
     position: relative;
+    border-radius: 10px;
+}
+form> div.submit{
+    text-align: center;
+}
+form> div.submit> input{
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 100px;
+}
+form> div.nd1> input{
+    width: 200px;
+    height: 25px;
+}
+form>div.tieude{
+    font-size: 20px;
+}
+form> div.nd1> input.ho{
+    width: 48%;
+}
+form> div.nd1> input.ten{
+    width: 49%;
+}
+form> div.nd1> input.sdt{
+    width: 100%;
+}
+form> div.nd1> input.mk{
+    width: 100%;
+}
+form> div.nd1> div.sn{
+    font-size: 20px;
+}
+form> div.nd1> div.gt{
+    font-size: 20px;
+}
+form> div.nd1> div.sn> select{
+    width: 30%;
+}
+form> div.nd1> div.gt> div.hh{
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+form> div.nd1> div.gt> div.hh> input{
+    width: 20%;
 }
