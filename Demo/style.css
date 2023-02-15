@@ -4,40 +4,50 @@
     padding: 3px;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
 table {
     width: 100%;
 }
 
-
-
-.td {
+.header {
     display: flex;
     justify-content: space-between;
-}
-.td1 {
-    font-weight: 1000;
-}
-.disign {
-color: indigo;
+    border-bottom: 1px solid rgb(99, 95, 95);
+    padding-bottom: 10px;
 }
 
-.product {
-    color: blue;
+.header .download {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(223, 215, 215);
 }
 
-.software {
-    color: green;
+.header .add {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(46, 46, 64);
+    color: #fff;
 }
 
-.operations {
-    color: red;
+.team {
+    color: rgb(245, 16, 16);
 }
 
-.gmail {
-    color: blue;
-}
-
-table th, table td {
+table th,
+table td {
     padding: 15px 30px;
     text-align: left;
     vertical-align: middle;
@@ -64,6 +74,14 @@ table .user {
     gap: 0 10px;
 }
 
+table .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 table .user .text {
     display: flex;
     flex-direction: column;
@@ -85,14 +103,4 @@ table .user .text {
     border-radius: 10px;
     border: none;
     height: 25px;
-}
-
-.xoa {
-    border: white;
-    background-color: white;
-}
-
-.sua {
-    border: white;
-    background-color: white;
 }

@@ -8,125 +8,126 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <link rel="stylesheet" href="css.css">
+    <script src="https://kit.fontawesome.com/fade33c73f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <h3>Team members</h3>
-        <h6>7 user</h6>
-        <h6>Download</h6>
-        <h6>Address</h6>
-    </div>
-    <hr>
-    <table border="1"> 
-        <tr>
-            <td>
-                <input type="radio" id="css" name="1" value="CSS">
+        <div class="td">
+          <div class="td1">
+            <label for="text" style="font-size: 25px;">Team members</label>
+            <label for="text" style="font-size: 15px;">4 user</label>
+          </div>
+          <div class="td2">
+            <button class="download">
+                <i class="fa-solid fa-download"></i>
+              Download CSV
+            </button>
+            <button class="add">
+                + Add user
+            </button>
+          </div>
+        </div>
+        <hr>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Status</th>
+              <th>Email address</th>
+              <th>Team</th>
+              <th></th>
+            </tr>
+          <tbody>
+            <tr>
+              <td>
+                <div class="user">
+                  <input type="checkbox"/>
+                  <div class="text">
+                    <span><h3>Olivia Rhye</h3></span>
+                    <span>@olivia</span>
+                  </div>
+                </div>
+              </td>
+              <td> 
+                <button class="stt"><li> Active</li>
+                </button>
             </td>
-            <div>
-                <td>Name</td>
-                <td class="status">Status</td>
-                <td class="Email_address">Email address</td>
-                <td class="team">Team</td>
-            </div>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>
-                <input type="radio" id="css" name="2" value="CSS">
-            </td>
-            <td class="name1">Oliva Rhye<br>
-                <label for="1" class="gmail">@oliva</label>
-            </td>
-            <td>
-                Active
-            </td>
-            <td style="text-align: left; color: #4506f4;">
-                olivia@untitledui.com
-            </td>
-            <td>
-                <label class="product" style="color: blue;">Product</label>
-                <label class="software" style="color: green;">Software Engineering</label>
-            </td>
-            <td class="xoa">
-                delete
-            </td>
-            <td class="sua">
-                sua
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="radio" id="css" name="3" value="CSS">
-            </td>
-            <td class="name1">Phoenix Baker<br>
-                <label for="1" class="gmail">@phoenix</label>
-            </td>
-            <td>
-                Active
-            </td>
-            <td style="text-align: left; color: #4506f4;">
-                phoenix@untitledui.com
-            </td>
-            <td>
-                <label class="design" style="color: blueviolet;">Design</label>
-                <label class="product" style="color: blue;">Product</label>
-            </td>
-            <td class="xoa">
-                delete
-            </td>
-            <td class="sua">
-                sua
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="radio" id="css" name="4" value="CSS">
-            </td>
-            <td class="name1">Lana Steinet<br>
-                <label for="1" class="gmail">@lana</label>
-            </td>
-            <td>
-                Offline
-            </td>
-            <td style="text-align: left; color: #4506f4;">
-                lana@untitledui.com
-            </td>
-            <td>
-                <label class="design" style="color: blueviolet;">Design</label>
-                <label class="product" style="color: blue;">Product</label>
-            </td>
-            <td class="xoa">
-                delete
-            </td>
-            <td class="sua">
-                sua
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="radio" id="css" name="5" value="CSS">
-            </td>
-            <td class="name1">Demi Wilkinson<br>
-                <label for="1" class="gmail">@demi</label>
-            </td>
-            <td>
-                Active
-            </td>
-            <td style="text-align: left; color: #4506f4;">
-                demi@untitledui.com
-            </td>
-            <td>
-                <label class="design" style="color: blueviolet;">Design</label>
-                <label class="software" style="color: green;">Software Engineering</label>
-            </td>
-            <td class="xoa">
-                delete
-            </td>
-            <td class="sua">
-                sua
-            </td>
-        </tr>
-    </table>
+              <td class="gmail">olivia@untitledui.com</td>
+              <td class="team">
+                <label class="disign">Disign</label>
+                <label class="product">Product</label>
+              </td>
+              <td>
+                <button class="xoa"><i class="fa-solid fa-trash"></i></button>
+                <button class="sua"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="user">
+                    <input type="checkbox"/>
+                    <div class="text">
+                      <span><h3>Phoenix Baker</h3></span>
+                      <span>@phoenix</span>
+                    </div>
+                  </div>
+                </td>
+                <td> 
+                  <button class="stt"><li> Active</li>
+                  </button>
+              </td>
+                <td class="gmail">phoenix@untitledui.com</td>
+                <td class="team">
+                  <label class="product">Product</label>
+                  <label class="software">Software Engineering</label>
+                </td>
+                <td>
+                    <button class="xoa"><i class="fa-solid fa-trash"></i></button>
+                    <button class="sua"><i class="fa-solid fa-pen"></i></button>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="user">
+                  <input type="checkbox" />
+                  <div class="text">
+                    <span><h3>Lana Steinet</h3></span>
+                    <span>@lana</span>
+                  </div>
+                </div>
+              </td>
+              <td><button class="stt2"><li> Offline</li></button></td>
+              <td class="gmail">lana@untitledui.com</td>
+              <td class="team">
+                <label class="operations">Operations</label>
+                <label class="product">Product</label>
+              </td>
+              <td>
+                <button class="xoa"><i class="fa-solid fa-trash"></i></button>
+                <button class="sua"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="user">
+                  <input type="checkbox"/>
+                  <div class="text">
+                    <span><h3>Demi Wilkinson</h3></span>
+                    <span>@demi</span>
+                  </div>
+                </div>
+              </td>
+              <td ><button class="stt"><li> Active</li></button></td>
+              <td class="gmail">demi@untitledui.com</td>
+              <td class="team">
+                <label class="disign">Disign</label>
+                <label class="product">Product</label>
+                <label class="software">Software Engineering</label>
+              </td>
+              <td>
+                <button class="xoa"><i class="fa-solid fa-trash"></i></button>
+                <button class="sua"><i class="fa-solid fa-pen"></i></button>
+              </td>
+            </tr>        
+          </tbody>
+        </table>
 </body>
 </html>
