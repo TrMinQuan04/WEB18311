@@ -1,4 +1,3 @@
-
 .menu1{
     width: 100%;
     height: 50px;
@@ -71,4 +70,22 @@ body{
 }
 .tt3 > img {
     float: left;
+}
+.td1 {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+.panel-body {
+    border: 1px ;
+    padding: 20px;
+}
+.td2 {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    float: right;
 }
